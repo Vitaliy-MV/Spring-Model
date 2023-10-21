@@ -1,0 +1,8 @@
+arch\example\model\CustomPersonRepository.class
+arch\example\config\CustomAuthencationProvider.class
+arch\example\model\DAO.class
+arch\example\config\WebSecurityConfig.class
+arch\example\model\Person.class
+arch\example\config\BootApplication.class
+arch\example\controller\MainController.class
+arch\example\model\UserService.class
