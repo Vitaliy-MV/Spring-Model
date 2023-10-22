@@ -2,7 +2,7 @@ package arch.example.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DAO {
+class DAO {
 	private List <Person> people;
 	{
 		people = new ArrayList<Person>();
