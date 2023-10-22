@@ -7,3 +7,4 @@ public interface CustomPersonRepository {
 	Person findByUsername(String username);
 	void save (Person user);
 }
+// This interface can be deleted
