@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService implements UserDetailsService {
-    private final DAO dataAccessObject = new DAO();
-    private PasswordEncoder bCryptPasswordEncoder;
+private final DAO dataAccessObject = new DAO();
+private PasswordEncoder bCryptPasswordEncoder;
         
 	public void save(Person user) {
     	user.setId(System.currentTimeMillis());
