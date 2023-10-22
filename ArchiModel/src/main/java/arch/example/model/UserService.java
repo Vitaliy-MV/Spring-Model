@@ -8,8 +8,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserService extends DAO implements UserDetailsService, CustomPersonRepository {
-	private final DAO dataAccessObject = new DAO();
+public class UserService implements UserDetailsService {
+    private final DAO dataAccessObject = new DAO();
     private PasswordEncoder bCryptPasswordEncoder;
         
 	public void save(Person user) {
