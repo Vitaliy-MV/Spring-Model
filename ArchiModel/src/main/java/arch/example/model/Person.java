@@ -1,6 +1,6 @@
 package arch.example.model;
 
-class Person {
+public class Person {
 	
     long id;
     private String login;
