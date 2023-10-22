@@ -23,7 +23,7 @@ private PasswordEncoder bCryptPasswordEncoder;
         }
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         user.setPosition(Integer.toString((int) Math.random()));
-        save(user);
+        dataAccessObject.save(user);
         System.out.println("User saved: " + user.toString());
     }
     public Person findByUsername(String username) {
